@@ -1,0 +1,29 @@
+// Load Fonts and Variables
+@import url('https://fonts.bunny.net/css?family=Nunito');
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Custom Styles
+.custom-auth-links {
+    display: flex;
+    gap: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-size: larger;
+}
+
+.custom-auth-links a.nav-link {
+    color: #333; // Customize the color to match your header theme
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.custom-auth-links a.nav-link:hover {
+    background-color: #034b07; // Match your header button color
+    color: #fff;
+}
